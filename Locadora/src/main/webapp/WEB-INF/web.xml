@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee https://jakarta.ee/xml/ns/jakartaee/web-app_5_0.xsd" version="5.0">
+  <servlet>
+    <description></description>
+    <display-name>FilmeServlet</display-name>
+    <servlet-name>FilmeServlet</servlet-name>
+    <servlet-class>FilmeServlet.FilmeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FilmeServlet</servlet-name>
+    <url-pattern>/FilmeServlet</url-pattern>
+  </servlet-mapping>
+  <display-name>ProjetoLocadora</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+  <servlet>
+    <description></description>
+    <display-name>filmeServlet</display-name>
+    <servlet-name>filmeServlet</servlet-name>
+    <servlet-class>controller.FilmeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>filmeServlet</servlet-name>
+    <url-pattern>/filmeServlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>servletFilme</display-name>
+    <servlet-name>servletFilme</servlet-name>
+    <servlet-class>controller.servletFilme</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>servletFilme</servlet-name>
+    <url-pattern>/servletFilme</url-pattern>
+  </servlet-mapping>
+</web-app>
